@@ -5,6 +5,42 @@
 <li>GUI надстройка может быть найдена на официальном сайте</li>
 </ul>
 <h3 id="основные-команды">Основные команды</h3>
+<ul>
+<li>Настройка git
+<ul>
+<li>Изменить имя пользователя: git config --global user.name &quot;&lt;Name&gt;&quot;</li>
+<li>Изменить адрес электронной почты: git config --global user.email &quot;&lt;Mail&gt;&quot;</li>
+</ul></li>
+<li>Получение помощи
+<ul>
+<li>Справка по команде: git help &lt;command&gt;</li>
+</ul></li>
+<li>Работа с репозиторием
+<ul>
+<li>Создать локальный репозиторий: git init</li>
+<li>Клонировать репозиторий: git clone ssh://git@github.com:gennadiychistyakov/programming-practice-book.git</li>
+<li>Просмотр тегов удаленных репозиториев: git remote</li>
+<li>Добавить удаленный репозиторий: git remote add &lt;tag&gt; &lt;link to .git&gt;</li>
+<li>Влить данные на удаленный репозиторий: git push &lt;tag&gt;</li>
+<li>Забрать данные с удаленного репозитория: git pull &lt;tag&gt;</li>
+</ul></li>
+<li>Работа с файлами
+<ul>
+<li>Добавить файлы в stage: git add &lt;files&gt;</li>
+<li>Удалить файлы из stage: git reset HEAD &lt;files&gt;</li>
+<li>Удалить файлы из репозитория: git rm &lt;files&gt;</li>
+<li>Вернуть состояние файла в момент последней транзацкии: git checkout -- &lt;files&gt;</li>
+</ul></li>
+<li>Транзацкии
+<ul>
+<li>Сделать commit: git commit -m &quot;&lt;Description&gt;&quot;</li>
+<li>Сделать повторный commit: git commit --amend</li>
+</ul></li>
+<li>Получение информации о состоянии репозитория
+<ul>
+<li>Просмотреть статус файлов: git status</li>
+</ul></li>
+</ul>
 <h3 id="материалы">Материалы</h3>
 <ul>
 <li>Наиболее полное руководство по git - цифровая версия книги ProGit (доступна не только онлайн версия, но и версии в форматах pdf, ePub, mobi)

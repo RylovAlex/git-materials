@@ -7,6 +7,29 @@
 
 ### Основные команды
 
+* Настройка git
+    * Изменить имя пользователя: git config --global user.name "\<Name\>"
+    * Изменить адрес электронной почты: git config --global user.email "\<Mail\>"
+* Получение помощи
+    * Справка по команде: git help \<command\>
+* Работа с репозиторием
+    * Создать локальный репозиторий: git init
+    * Клонировать репозиторий: git clone ssh://git@github.com:gennadiychistyakov/programming-practice-book.git
+    * Просмотр тегов удаленных репозиториев: git remote
+    * Добавить удаленный репозиторий: git remote add \<tag\> \<link to .git\>
+    * Влить данные на удаленный репозиторий: git push \<tag\>
+    * Забрать данные с удаленного репозитория: git pull \<tag\>
+* Работа с файлами
+    * Добавить файлы в stage: git add \<files\>
+    * Удалить файлы из stage: git reset HEAD \<files\>
+    * Удалить файлы из репозитория: git rm \<files\>
+    * Вернуть состояние файла в момент последней транзацкии: git checkout -- \<files\>
+* Транзацкии
+    * Сделать commit: git commit -m "\<Description\>"
+    * Сделать повторный commit: git commit --amend
+* Получение информации о состоянии репозитория
+    * Просмотреть статус файлов: git status
+
 ### Материалы
 
 * Наиболее полное руководство по git - цифровая версия книги ProGit (доступна не только онлайн версия, но и версии в форматах pdf, ePub, mobi)
