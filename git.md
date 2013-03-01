@@ -37,6 +37,7 @@
     * Русская версия <http://git-scm.com/book/ru>
 * Краткая статья по базовым командам <http://blog.nsws.ru/rabota-s-git-dlya-nachinayushhix.html> 
 * Визуальная справка по командам git <http://marklodato.github.com/visual-git-guide/index-en.html> (русская версия <http://marklodato.github.com/visual-git-guide/index-ru.html>)
+* Еще один хороший ресурс <http://www.calculate-linux.ru/main/ru/git>
 
 ### Упражнения
 
